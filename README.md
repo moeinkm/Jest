@@ -11,7 +11,7 @@
 yarn add --dev jest
 ```
 
-Or [`npm`](https://www.npmjs.com/package/jest):
+یا [`npm`](https://www.npmjs.com/package/jest):
 
 ```bash
 npm install --save-dev jest
