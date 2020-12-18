@@ -42,4 +42,35 @@ function sum(a, b) {
 module.exports = sum;
 ```
 <div dir="rtl">
-  سپس یک فایل به اسم `sum.test.js` می&nbsp;سازیم که که در واقع همان فایل تست ماست.
+
+سپس یک فایل به اسم `sum.test.js` می&nbsp;سازیم که که در واقع همان فایل تست ماست.
+</div>
+
+```javascript
+const sum = require('./sum');
+
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
+});
+```
+<div dir="rtl">
+  
+قسمت زیر را به `package.json` اضافه می کنیم:
+</div>
+
+```json
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+```
+<div dir="rtl">
+  
+در آخر دستور `yarn test` یا `npm run test` را اجرا می کنیم و جست پیام زیر را برای ما چاپ می کند:
+</dir>
+
+```bash
+PASS  ./sum.test.js
+✓ adds 1 + 2 to equal 3 (5ms)
+```
