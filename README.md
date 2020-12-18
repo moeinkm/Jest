@@ -20,5 +20,7 @@ yarn add --dev jest
 ```bash
 npm install --save-dev jest
 ```
+نکته: داکیومنت جست از دستور `yarn` استفاده می&nbsp;کند البته `npm` هم قابل استفاده است. برای مقایسه این دو دستور به [این لینک](https://yarnpkg.com/en/docs/migrating-from-npm#toc-cli-commands-comparison) مراجعه کنید.
 
+Note: Jest documentation uses `yarn` commands, but `npm` will also work. You can compare `yarn` and `npm` commands in the [yarn docs, here](https://yarnpkg.com/en/docs/migrating-from-npm#toc-cli-commands-comparison).
 </div>
