@@ -74,3 +74,13 @@ test('adds 1 + 2 to equal 3', () => {
 PASS  ./sum.test.js
 ✓ adds 1 + 2 to equal 3 (5ms)
 ```
+
+<div dir="rtl">
+  
+**شما با موفقیت اولین تست را با استفاده از جست نوشتید**
+</dir>
+<div dir="rtl">
+  
+ این تست با استفاده از`expect` و `toBe`یکسان بودن مقادیر را سنجید. برای یادگیری بیشتر درباره چیز هایی که می‌توان با جست تست کرد[این لینک ](https://jestjs.io/docs/using-matchers)را ببینید.
+  
+ This test used `expect` and `toBe` to test that two values were exactly identical. To learn about the other things that Jest can test, see [Using Matchers](https://jestjs.io/docs/using-matchers).
