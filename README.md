@@ -31,7 +31,7 @@ npm install --save-dev jest
   
 نکته: داکیومنت جست از دستور `yarn` استفاده می&nbsp;کند البته `npm` هم قابل استفاده است. برای مقایسه این دو دستور به [این لینک](https://yarnpkg.com/en/docs/migrating-from-npm#toc-cli-commands-comparison) مراجعه کنید.
 
-برای شروع یک تست برای تابعی که دو عدد را جمع می&nbsp;کند می&nbsp;نویسیم. ابتدا فایل `sum.js` را می&nbsp;سازیم
+برای شروع، یک تست برای تابعی فرضی که دو عدد را جمع می&nbsp;کند می&nbsp;نویسیم. ابتدا فایل `sum.js` را می&nbsp;.سازیم
 
 </div>
 
@@ -41,3 +41,5 @@ function sum(a, b) {
 }
 module.exports = sum;
 ```
+<div dir="rtl">
+  سپس یک فایل به اسم `sum.test.js` می&nbsp;سازیم که که در واقع همان فایل تست ماست.
