@@ -81,6 +81,25 @@ PASS  ./sum.test.js
 </dir>
 <div dir="rtl">
   
- این تست با استفاده از`expect` و `toBe`یکسان بودن مقادیر را سنجید. برای یادگیری بیشتر درباره چیز هایی که می‌توان با جست تست کرد[این لینک ](https://jestjs.io/docs/using-matchers)را ببینید.
+ این تست با استفاده از`expect` و `toBe`یکسان بودن مقادیر را سنجید. برای یادگیری بیشتر درباره چیز هایی که می‌توان با جست تست کرد [این لینک ](https://jestjs.io/docs/using-matchers)را ببینید.
   
- This test used `expect` and `toBe` to test that two values were exactly identical. To learn about the other things that Jest can test, see [Using Matchers](https://jestjs.io/docs/using-matchers).
+</div>   
+
+<div dir="rtl">
+  
+## اجرای جست به صورت کامَند لاین
+
+جست را می&#8204;توان مستقیماً از ترمینال اجرا کرد به شرطی که در `PATH` در دسترس باشد. این کار را می&#8204;توان با دستور `yarn global add jest` یا `npm install jest --global` انجام داد.  
+
+در ادامه نحوه اجرای فایل تست به اسم `my-test` با استفاده از تنظیمات `config.json` آمده است:
+</div>
+
+```bash
+jest my-test --notify --config=config.json
+```
+
+<div dir="rtl">
+
+برای اطلاعات بیشتر راجع به اجرای جست به صورت کامَند لاین به [اسناد جست](https://jestjs.io/docs/en/cli) مراجعه کنید
+If you'd like to learn more about running `jest` through the command line, take a look at the [Jest CLI Options](https://jestjs.io/docs/en/cli) page.
+</div>
