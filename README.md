@@ -100,6 +100,20 @@ jest my-test --notify --config=config.json
 
 <div dir="rtl">
 
-برای اطلاعات بیشتر راجع به اجرای جست به صورت کامَند لاین به [اسناد جست](https://jestjs.io/docs/en/cli) مراجعه کنید
-If you'd like to learn more about running `jest` through the command line, take a look at the [Jest CLI Options](https://jestjs.io/docs/en/cli) page.
+برای اطلاعات بیشتر راجع به اجرای جست به صورت کامَند لاین به [اسناد جست](https://jestjs.io/docs/en/cli) مراجعه کنید.
+
+## تنظیمات بیشتر
+### ساخت یک فایل تنظیمات ابتدایی
+
+با توجه به پروژه شما جست برای ساخت یک فایل تنظیمات با توضیحات کوتاهی راجع به هر قسمت سوالاتی از شما می&#8204;پرسد:
+
+</div>
+
+```bash
+jest --init
+```
+
+<div dir="rtl">
+  
+
 </div>
